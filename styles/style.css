@@ -1,0 +1,119 @@
+html {
+  font-size: 65%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.2em;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  margin-right: 1.5rem;
+  opacity: 85%;
+}
+
+.pfp {
+  margin-right: 2.5rem;
+  border-radius: 50%;
+  width: 3.4rem;
+}
+
+.apps {
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-right: 1.5rem;
+  background-color: #ffffff;
+}
+
+.apps:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+/* Main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+.search-field {
+  border: none;
+  width: 90%;
+  height: max-content;
+  font-size: 1.5rem;
+}
+
+.search-field:hover,
+.search-field:focus-within {
+  outline: none;
+}
+
+.search-img {
+  margin-right: 1.2rem;
+}
+
+.mic {
+  margin-left: 1.5rem;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 580px;
+  padding: 1rem;
+  padding-right: 1.5rem;
+  border: 0.1px solid #dddddd;
+  border-radius: 30px;
+}
+
+.searchbar:hover,
+.searchbar:focus-within {
+  border-color: #ffffff;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.3);
+}
+
+.search-buttons {
+  margin-top: 3rem;
+}
+
+.btn {
+  width: 155px;
+  height: 36px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin: 1rem;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-size: 1.4rem;
+}
+
+.btn:hover {
+  border-color: #dadce0;
+}
