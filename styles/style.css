@@ -175,7 +175,12 @@ footer {
   }
 
   .searchbar {
-    width: 400px;
+    width: 290px;
+  }
+
+  .flink {
+    padding-left: 0.7rem;
+    padding-right: 1rem;
   }
 
   .search-buttons {
