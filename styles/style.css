@@ -106,7 +106,7 @@ main {
 
 .btn {
   width: 155px;
-  height: 36px;
+  height: 35px;
   border: 1px solid transparent;
   border-radius: 5px;
   margin: 1rem;
@@ -121,7 +121,7 @@ main {
 
 /* Footer */
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -150,21 +150,34 @@ footer {
 }
 
 /* Media queries */
-@media (max-height: 500px) {
+@media (max-height: 550px) {
   main {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
   }
+
+  .btn {
+    width: 105px;
+    height: 25px;
+    border: 0.5px solid transparent;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 800px) {
   .logo {
     width: 125px;
   }
+
   .searchbar {
     width: 400px;
   }
+
   .search-buttons {
     width: 100px;
   }
